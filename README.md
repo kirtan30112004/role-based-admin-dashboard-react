@@ -377,10 +377,10 @@ Three storage keys are used:
 
 ## 👤 Author
 
-**[Your Name]**
+**Kirtan Chauhan**
 
-- 🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
-- 🐙 GitHub: [github.com/your-username](https://github.com/your-username)
+- 🔗 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/kirtan-chauhan-4a1314292)
+- 🐙 GitHub: [github.com/your-username](https://github.com/kirtan30112004)
 
 ---
 
