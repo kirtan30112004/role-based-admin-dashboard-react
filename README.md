@@ -379,8 +379,8 @@ Three storage keys are used:
 
 **Kirtan Chauhan**
 
-- 🔗 LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/kirtan-chauhan-4a1314292)
-- 🐙 GitHub: [github.com/your-username](https://github.com/kirtan30112004)
+- 🔗 LinkedIn: [https://www.linkedin.com/in/kirtan-chauhan-4a1314292]
+- 🐙 GitHub: [https://github.com/kirtan30112004]
 
 ---
 
