@@ -118,22 +118,22 @@ export const EMPLOYEE_KPIS = [
 
 /* ── Activity feed ─────────────────────────────────────────────────── */
 export const ACTIVITY_FEED = [
-  { id: 1, type: 'leave_approved',  actor: 'Maria Garcia',  detail: "Approved Sam Wilson's leave (Jul 10–14)",      time: '2m ago',     avatar_role: 'hr'       },
-  { id: 2, type: 'user_created',    actor: 'Alex Johnson',  detail: 'Created account for riley.patel@company.com',  time: '1h ago',     avatar_role: 'admin'    },
-  { id: 3, type: 'leave_requested', actor: 'Jordan Lee',    detail: 'Requested sick leave for Jul 17',              time: '3h ago',     avatar_role: 'employee' },
-  { id: 4, type: 'role_changed',    actor: 'Alex Johnson',  detail: 'Updated Legal department budget to $195k',     time: '5h ago',     avatar_role: 'admin'    },
-  { id: 5, type: 'role_changed',    actor: 'Alex Johnson',  detail: 'Promoted Taylor Kim → HR Manager',             time: 'Yesterday',  avatar_role: 'admin'    },
-  { id: 6, type: 'login',           actor: 'Casey Nguyen',  detail: 'Logged in from 192.168.1.45',                  time: 'Yesterday',  avatar_role: 'employee' },
-  { id: 7, type: 'leave_approved',  actor: 'Maria Garcia',  detail: "Approved Riley Patel's annual leave (Aug 1–7)",time: '2 days ago', avatar_role: 'hr'       },
-  { id: 8, type: 'user_created',    actor: 'Alex Johnson',  detail: 'Onboarded morgan.chen@company.com (Design)',   time: '3 days ago', avatar_role: 'admin'    },
+  { id: 1, type: 'leave_approved',  actor: 'Priya Patel',  detail: "Approved Rahul Verma's leave (Jul 10–14)",      time: '2m ago',     avatar_role: 'hr'       },
+  { id: 2, type: 'user_created',    actor: 'Aarav Sharma',  detail: 'Created account for rohan.patel@company.com',  time: '1h ago',     avatar_role: 'admin'    },
+  { id: 3, type: 'leave_requested', actor: 'Neha Kapoor',    detail: 'Requested sick leave for Jul 17',              time: '3h ago',     avatar_role: 'employee' },
+  { id: 4, type: 'role_changed',    actor: 'Aarav Sharma',  detail: 'Updated Legal department budget to ₹19.5L',     time: '5h ago',     avatar_role: 'admin'    },
+  { id: 5, type: 'role_changed',    actor: 'Aarav Sharma',  detail: 'Promoted Priya Patel → HR Manager',             time: 'Yesterday',  avatar_role: 'admin'    },
+  { id: 6, type: 'login',           actor: 'Ananya Iyer',  detail: 'Logged in from 192.168.1.45',                  time: 'Yesterday',  avatar_role: 'employee' },
+  { id: 7, type: 'leave_approved',  actor: 'Priya Patel',  detail: "Approved Rohan Patel's annual leave (Aug 1–7)",time: '2 days ago', avatar_role: 'hr'       },
+  { id: 8, type: 'user_created',    actor: 'Aarav Sharma',  detail: 'Onboarded arjun.mehta@company.com (Engineering)',   time: '3 days ago', avatar_role: 'admin'    },
 ];
 
 /* ── Users table seed (used by AdminUsers) ─────────────────────────── */
 export const EMPLOYEES_TABLE = [
-  { id: 'e01', name: 'Sam Wilson',   email: 'employee@company.com', dept: 'Engineering',    role: 'employee', status: 'Active',   joinDate: '2022-07-20' },
-  { id: 'e02', name: 'Jordan Lee',   email: 'j.lee@company.com',    dept: 'Design',          role: 'employee', status: 'Inactive', joinDate: '2021-11-05' },
-  { id: 'e03', name: 'Casey Nguyen', email: 'c.nguyen@company.com', dept: 'Marketing',       role: 'employee', status: 'Active',   joinDate: '2023-01-15' },
-  { id: 'e04', name: 'Riley Patel',  email: 'r.patel@company.com',  dept: 'Finance',         role: 'employee', status: 'Active',   joinDate: '2020-06-01' },
-  { id: 'e05', name: 'Taylor Kim',   email: 't.kim@company.com',    dept: 'Human Resources', role: 'hr',       status: 'Active',   joinDate: '2021-03-10' },
-  { id: 'e06', name: 'Morgan Chen',  email: 'm.chen@company.com',   dept: 'Design',          role: 'employee', status: 'Active',   joinDate: '2024-03-01' },
+  { id: 'e01', name: 'Aarav Sharma',   email: 'employee@company.com', dept: 'Engineering',    role: 'employee', status: 'Active',   joinDate: '2022-07-20' },
+  { id: 'e02', name: 'Neha Kapoor',   email: 'neha.kapoor@company.com',    dept: 'Design',          role: 'employee', status: 'Inactive', joinDate: '2021-11-05' },
+  { id: 'e03', name: 'Ananya Iyer', email: 'ananya.iyer@company.com', dept: 'Marketing',       role: 'employee', status: 'Active',   joinDate: '2023-01-15' },
+  { id: 'e04', name: 'Rohan Patel',  email: 'rohan.patel@company.com',  dept: 'Finance',         role: 'employee', status: 'Active',   joinDate: '2020-06-01' },
+  { id: 'e05', name: 'Priya Patel',   email: 'hr@company.com',    dept: 'Human Resources', role: 'hr',       status: 'Active',   joinDate: '2021-03-10' },
+  { id: 'e06', name: 'Arjun Mehta',  email: 'arjun.mehta@company.com',   dept: 'Design',          role: 'employee', status: 'Active',   joinDate: '2024-03-01' },
 ];
