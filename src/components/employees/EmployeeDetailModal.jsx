@@ -1,6 +1,6 @@
 import {
   Mail, Phone, Building2, Briefcase, Calendar,
-  DollarSign, MapPin, AlertCircle, Clock, Pencil,
+IndianRupee, MapPin, AlertCircle, Clock, Pencil,
 } from 'lucide-react';
 import Modal        from '../ui/Modal';
 import Button       from '../ui/Button';
@@ -21,9 +21,9 @@ function EmployeeDetailModal({ employee, isOpen, onClose, onEdit }) {
   if (!employee) return null;
 
   const salary = employee.salary
-    ? new Intl.NumberFormat('en-US', {
+    ? new Intl.NumberFormat('en-IN', {
         style: 'currency',
-        currency: 'USD',
+        currency: 'INR',
         maximumFractionDigits: 0,
       }).format(employee.salary)
     : '—';
@@ -92,7 +92,7 @@ function EmployeeDetailModal({ employee, isOpen, onClose, onEdit }) {
             <DetailRow icon={Briefcase}  label="Title"      value={employee.jobTitle}       />
             <DetailRow icon={Building2}  label="Department" value={employee.department}     />
             <DetailRow icon={Calendar}   label="Joined"     value={employee.joinDate}       />
-            <DetailRow icon={DollarSign} label="Salary"     value={salary}                 />
+            <DetailRow icon={IndianRupee} label="Salary"     value={salary}                 />
             <DetailRow icon={Clock}      label="Type"       value={employee.employmentType} />
           </Section>
         </div>

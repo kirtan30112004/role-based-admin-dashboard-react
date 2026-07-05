@@ -29,9 +29,9 @@ function Tooltip_({ active, payload }) {
         {d.payload.budget != null && d.payload.budget > 0 && (
           <p className="text-slate-400 pt-1 border-t border-surface-border mt-1">
             Budget:{' '}
-            {new Intl.NumberFormat('en-US', {
+            {new Intl.NumberFormat('en-IN', {
               style: 'currency',
-              currency: 'USD',
+              currency: 'INR',
               notation: 'compact',
               maximumFractionDigits: 1,
             }).format(d.payload.budget)}

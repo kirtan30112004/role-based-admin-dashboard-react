@@ -1,4 +1,4 @@
-import { Pencil, Trash2, Users, MapPin, DollarSign, UserCircle2 } from 'lucide-react';
+import { Pencil, Trash2, Users, MapPin, IndianRupee, UserCircle2 } from 'lucide-react';
 import Button from '../ui/Button';
 
 /**
@@ -15,8 +15,8 @@ function DepartmentCard({ department, onEdit, onDelete }) {
   } = department;
 
   const budgetFormatted = budget
-    ? new Intl.NumberFormat('en-US', {
-        style: 'currency', currency: 'USD', notation: 'compact', maximumFractionDigits: 1,
+    ? new Intl.NumberFormat('en-IN', {
+        style: 'currency', currency: 'INR', notation: 'compact', maximumFractionDigits: 1,
       }).format(budget)
     : '—';
 
@@ -53,7 +53,7 @@ function DepartmentCard({ department, onEdit, onDelete }) {
       <div className="space-y-1.5 text-xs text-slate-500">
         {manager  && <MetaRow icon={UserCircle2} text={manager}         />}
         {location && <MetaRow icon={MapPin}      text={location}        />}
-        {budget   ? <MetaRow icon={DollarSign}  text={`${budgetFormatted} budget`} />
+        {budget   ? <MetaRow icon={IndianRupee}  text={`${budgetFormatted} budget`} />
                   : null}
         <MetaRow icon={Users} text={`${headcount} employee${headcount !== 1 ? 's' : ''}`} />
       </div>

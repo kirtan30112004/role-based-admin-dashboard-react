@@ -26,8 +26,8 @@ import { toast }  from '../../components/ui/Toast';
 function TotalsBar({ departments }) {
   const totalPeople = departments.reduce((s, d) => s + (d.headcount ?? 0), 0);
   const totalBudget = departments.reduce((s, d) => s + (Number(d.budget) || 0), 0);
-  const budgetFmt   = new Intl.NumberFormat('en-US', {
-    style: 'currency', currency: 'USD', notation: 'compact', maximumFractionDigits: 1,
+  const budgetFmt   = new Intl.NumberFormat('en-IN', {
+    style: 'currency', currency: 'INR', notation: 'compact', maximumFractionDigits: 1,
   }).format(totalBudget);
 
   return (

@@ -62,18 +62,18 @@ function DepartmentForm({ fields, fieldError, onChange, onBlur, setField }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <Input
             label="Manager name"
-            placeholder="Alex Johnson"
+            placeholder="Aarav Sharma"
             value={fields.manager}
             onChange={onChange('manager')}
             onBlur={onBlur('manager')}
             error={fieldError('manager')}
           />
           <Input
-            label="Annual budget (USD)"
-            placeholder="500000"
+            label="Annual budget (₹)"
+            placeholder="50000000"
             type="number"
             min="0"
-            step="10000"
+            step="100000"
             value={fields.budget}
             onChange={onChange('budget')}
             onBlur={onBlur('budget')}
@@ -81,7 +81,7 @@ function DepartmentForm({ fields, fieldError, onChange, onBlur, setField }) {
           />
           <Input
             label="Location / Office"
-            placeholder="Austin, TX"
+            placeholder="Bengaluru, Karnataka"
             value={fields.location}
             onChange={onChange('location')}
             onBlur={onBlur('location')}

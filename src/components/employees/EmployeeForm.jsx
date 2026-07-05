@@ -28,7 +28,7 @@ function EmployeeForm({ fields, fieldError, onChange, onBlur }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <Input
             label="Full name *"
-            placeholder="Alex Johnson"
+            placeholder="Rahul Verma"
             value={fields.name}
             onChange={onChange('name')}
             onBlur={onBlur('name')}
@@ -37,7 +37,7 @@ function EmployeeForm({ fields, fieldError, onChange, onBlur }) {
           />
           <Input
             label="Email address *"
-            placeholder="alex@company.com"
+            placeholder="rahul.verma@company.com"
             type="email"
             value={fields.email}
             onChange={onChange('email')}
@@ -47,7 +47,7 @@ function EmployeeForm({ fields, fieldError, onChange, onBlur }) {
           />
           <Input
             label="Phone number *"
-            placeholder="+1 (555) 000-0000"
+            placeholder="+91 98765 43210"
             type="tel"
             value={fields.phone}
             onChange={onChange('phone')}
@@ -56,7 +56,7 @@ function EmployeeForm({ fields, fieldError, onChange, onBlur }) {
           />
           <Input
             label="Home address"
-            placeholder="123 Main St, City, State"
+            placeholder="Satellite, Ahmedabad, Gujarat"
             value={fields.address}
             onChange={onChange('address')}
             onBlur={onBlur('address')}
@@ -73,7 +73,7 @@ function EmployeeForm({ fields, fieldError, onChange, onBlur }) {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <Input
             label="Job title *"
-            placeholder="Senior Engineer"
+            placeholder="Senior Software Engineer"
             value={fields.jobTitle}
             onChange={onChange('jobTitle')}
             onBlur={onBlur('jobTitle')}
@@ -112,11 +112,11 @@ function EmployeeForm({ fields, fieldError, onChange, onBlur }) {
             error={fieldError('joinDate')}
           />
           <Input
-            label="Annual salary (USD) *"
-            placeholder="75000"
+            label="Annual Salary (₹) *"
+            placeholder="1200000"
             type="number"
             min="0"
-            step="1000"
+            step="10000"
             value={fields.salary}
             onChange={onChange('salary')}
             onBlur={onBlur('salary')}
@@ -132,7 +132,7 @@ function EmployeeForm({ fields, fieldError, onChange, onBlur }) {
           />
           <Input
             label="Emergency contact"
-            placeholder="Name · Phone number"
+            placeholder="Riya Verma · +91 98765 12345"
             value={fields.emergencyContact}
             onChange={onChange('emergencyContact')}
             onBlur={onBlur('emergencyContact')}

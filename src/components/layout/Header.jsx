@@ -26,9 +26,9 @@ const PAGE_META = {
 
 const MOCK_NOTIFICATIONS = [
   { id: 1, title: 'Leave approved',      body: 'Jul 10–14 leave was approved.',      time: '2m ago',    read: false },
-  { id: 2, title: 'New user registered', body: 'riley.patel@company.com joined.',    time: '1h ago',    read: false },
+  { id: 2, title: 'New user registered', body: 'rohan.patel@company.com joined.',    time: '1h ago',    read: false },
   { id: 3, title: 'System update',       body: 'Scheduled maintenance on Sunday.',   time: '3h ago',    read: true  },
-  { id: 4, title: 'Leave request',       body: 'Sam Wilson requested 5 days off.',   time: 'Yesterday', read: true  },
+  { id: 4, title: 'Leave request',       body: 'Rahul Verma requested 5 days off.',   time: 'Yesterday', read: true  },
 ];
 
 /* ─── Notification panel ─────────────────────────────────────────────── */

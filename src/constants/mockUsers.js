@@ -1,43 +1,38 @@
 import { ROLES } from './roles';
 
-/**
- * Mock user database.
- * In a real app this lives behind an API + password hashing.
- * Passwords are stored in plain-text here solely for demo purposes.
- */
 const MOCK_USERS = [
   {
     id:         'usr_001',
     email:      'admin@company.com',
     password:   'Admin@123',
     role:       ROLES.ADMIN,
-    name:       'Alex Johnson',
+    name:       'Aarav Sharma',
     department: 'IT',
-    avatar:     null,          // null → falls back to initials avatar
+    avatar:     null,
     joinDate:   '2020-01-15',
-    phone:      '+1 (555) 001-0001',
+    phone:      '+91 98765 43210',
   },
   {
     id:         'usr_002',
     email:      'hr@company.com',
     password:   'Hr@12345',
     role:       ROLES.HR,
-    name:       'Maria Garcia',
+    name:       'Priya Patel',
     department: 'Human Resources',
     avatar:     null,
     joinDate:   '2021-03-10',
-    phone:      '+1 (555) 002-0002',
+    phone:      '+91 91234 56789',
   },
   {
     id:         'usr_003',
     email:      'employee@company.com',
     password:   'Emp@1234',
     role:       ROLES.EMPLOYEE,
-    name:       'Sam Wilson',
+    name:       'Rahul Verma',
     department: 'Engineering',
     avatar:     null,
     joinDate:   '2022-07-20',
-    phone:      '+1 (555) 003-0003',
+    phone:      '+91 99887 66554',
   },
 ];
 

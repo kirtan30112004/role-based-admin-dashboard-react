@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, Building2, Calendar, DollarSign, MapPin, AlertCircle, Save } from 'lucide-react';
+import { Mail, Phone, Building2, Calendar, IndianRupee, MapPin, AlertCircle, Save } from 'lucide-react';
 
 import { useAuth }          from '../../context/AuthContext';
 import { useEmployees }     from '../../context/EmployeeContext';
@@ -36,8 +36,8 @@ function EmployeeProfile() {
   const record = employees.find((e) => e.email === user?.email) ?? null;
 
   const salary = record?.salary
-    ? new Intl.NumberFormat('en-US', {
-        style: 'currency', currency: 'USD', maximumFractionDigits: 0,
+    ? new Intl.NumberFormat('en-IN', {
+        style: 'currency', currency: 'INR', maximumFractionDigits: 0,
       }).format(record.salary)
     : '—';
 
@@ -94,7 +94,7 @@ function EmployeeProfile() {
           <DetailRow icon={Phone}      label="Phone"       value={record?.phone}       />
           <DetailRow icon={Building2}  label="Department"  value={record?.department}  />
           <DetailRow icon={Calendar}   label="Joined"      value={record?.joinDate}    />
-          <DetailRow icon={DollarSign} label="Salary"      value={salary}              />
+          <DetailRow icon={IndianRupee} label="Salary"      value={salary}              />
           {record?.address && (
             <DetailRow icon={MapPin}   label="Address"     value={record.address}      />
           )}
