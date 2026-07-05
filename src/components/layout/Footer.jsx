@@ -18,7 +18,7 @@ function Footer() {
         <span className="font-semibold text-slate-500">AdminHub</span>
       </p>
       <p className="hidden sm:block">React · Vite · Tailwind CSS</p>
-      <p>v4.0.0</p>
+      <p>v1.0.0</p>
     </footer>
   );
 }

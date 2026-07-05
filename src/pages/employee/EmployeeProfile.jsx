@@ -39,7 +39,7 @@ function EmployeeProfile() {
     ? new Intl.NumberFormat('en-IN', {
         style: 'currency', currency: 'INR', maximumFractionDigits: 0,
       }).format(record.salary)
-    : '—';
+    : '18,00,000';
 
   // Password change form (UI only — no real auth)
   const [pwForm, setPwForm]   = useState({ current: '', next: '', confirm: '' });

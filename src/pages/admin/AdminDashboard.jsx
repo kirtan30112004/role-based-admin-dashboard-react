@@ -82,8 +82,8 @@ function AddUserModal({ isOpen, onClose }) {
       }
     >
       <div className="space-y-4">
-        <Input label="Full name *"  placeholder="Alex Johnson"        value={form.name}       onChange={set('name')}       />
-        <Input label="Email *"      placeholder="alex@company.com"    value={form.email}      onChange={set('email')}      type="email" />
+        <Input label="Full name *"  placeholder="Rahul Verma"        value={form.name}       onChange={set('name')}       />
+        <Input label="Email *"      placeholder="rahul.verma@company.com"    value={form.email}      onChange={set('email')}      type="email" />
         <Input label="Department"   placeholder="Engineering"         value={form.department} onChange={set('department')} />
         <Select
           label="Role"

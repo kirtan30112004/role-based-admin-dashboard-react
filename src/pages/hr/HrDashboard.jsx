@@ -21,9 +21,9 @@ import AttendanceTrendChart from '../../components/charts/AttendanceTrendChart';
 import SalaryBandChart     from '../../components/charts/SalaryBandChart';
 
 const PENDING_LEAVES = [
-  { id: 'pl1', name: 'Sam Wilson',   type: 'Annual',   dates: 'Jul 10–14', days: 5 },
-  { id: 'pl2', name: 'Jordan Lee',   type: 'Sick',     dates: 'Jul 17',    days: 1 },
-  { id: 'pl3', name: 'Casey Nguyen', type: 'Personal', dates: 'Jul 21–22', days: 2 },
+  { id: 'pl1', name: 'Rahul Verma',   type: 'Annual',   dates: 'Jul 10–14', days: 5 },
+  { id: 'pl2', name: 'Neha Kapoor',   type: 'Sick',     dates: 'Jul 17',    days: 1 },
+  { id: 'pl3', name: 'Ananya Iyer', type: 'Personal', dates: 'Jul 21–22', days: 2 },
 ];
 
 /* ── Leave review modal ──────────────────────────────────────────────── */

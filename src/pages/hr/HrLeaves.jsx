@@ -10,12 +10,12 @@ import Button      from '../../components/ui/Button';
 import { toast }   from '../../components/ui/Toast';
 
 const INITIAL = [
-  { id: 'l1', employee: 'Sam Wilson',   type: 'Annual',   from: '2026-07-10', to: '2026-07-14', reason: 'Family vacation', status: 'Pending'  },
-  { id: 'l2', employee: 'Jordan Lee',   type: 'Sick',     from: '2026-07-17', to: '2026-07-17', reason: 'Unwell',          status: 'Pending'  },
-  { id: 'l3', employee: 'Casey Nguyen', type: 'Personal', from: '2026-07-21', to: '2026-07-22', reason: 'Appointment',     status: 'Approved' },
-  { id: 'l4', employee: 'Riley Patel',  type: 'Annual',   from: '2026-08-01', to: '2026-08-07', reason: 'Holiday',         status: 'Rejected' },
-  { id: 'l5', employee: 'Taylor Kim',   type: 'Annual',   from: '2026-08-10', to: '2026-08-14', reason: 'Travel',          status: 'Pending'  },
-  { id: 'l6', employee: 'Morgan Chen',  type: 'Sick',     from: '2026-07-25', to: '2026-07-25', reason: 'Doctor visit',    status: 'Approved' },
+  { id: 'l1', employee: 'Rahul Verma',   type: 'Annual',   from: '2026-07-10', to: '2026-07-14', reason: 'Family vacation', status: 'Pending'  },
+  { id: 'l2', employee: 'Neha Kapoor',   type: 'Sick',     from: '2026-07-17', to: '2026-07-17', reason: 'Unwell',          status: 'Pending'  },
+  { id: 'l3', employee: 'Ananya Iyer', type: 'Personal', from: '2026-07-21', to: '2026-07-22', reason: 'Appointment',     status: 'Approved' },
+  { id: 'l4', employee: 'Rohan Patel',  type: 'Annual',   from: '2026-08-01', to: '2026-08-07', reason: 'Holiday',         status: 'Rejected' },
+  { id: 'l5', employee: 'Priya Patel',   type: 'Annual',   from: '2026-08-10', to: '2026-08-14', reason: 'Travel',          status: 'Pending'  },
+  { id: 'l6', employee: 'Arjun Mehta',  type: 'Sick',     from: '2026-07-25', to: '2026-07-25', reason: 'Doctor visit',    status: 'Approved' },
 ];
 
 const STATUS_STYLE = {

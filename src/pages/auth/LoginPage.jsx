@@ -106,7 +106,7 @@ function LoginPage() {
             Welcome to AdminHub
           </h1>
           <p className="text-slate-400 mt-1.5 text-sm">
-            Role-based access management
+            Role-Based Access Management
           </p>
         </div>
 
@@ -266,7 +266,7 @@ function LoginPage() {
 
         {/* Footer note */}
         <p className="text-center text-xs text-slate-500 mt-6">
-          Sessions expire after 8 hours. · © {new Date().getFullYear()} AdminHub
+           © {new Date().getFullYear()} AdminHub
         </p>
       </div>
     </div>
